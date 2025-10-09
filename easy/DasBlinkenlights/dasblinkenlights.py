@@ -8,5 +8,3 @@ for number in input().split():
 lcm = store[0] * store[1] //  math.gcd(store[0], store[1])
 
 print("yes" if lcm <= store[2] else "no")
-
-
